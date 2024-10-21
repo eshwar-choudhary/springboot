@@ -4,11 +4,9 @@ import com.ec.springboot.constructorInjection.components.Air;
 import com.ec.springboot.constructorInjection.components.Food;
 import com.ec.springboot.constructorInjection.components.Human;
 import com.ec.springboot.constructorInjection.components.Water;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 @Configuration
 public class AppConfig {
